@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(226, 235, 226)
+}
+
+#content{
+    color:black;
+    
+    width:888px;
+	
+}
+#imageright{
+    float:right;
+	width:350px;
+    height:500px;
+    
+    border-radius: 10px;
+    border:solid 2px black;
+    
+}
+#imageleft{
+    float:left;
+    width:300px;
+    height:200px;
+    margin-right:40px;
+    margin-bottom: 80px;
+	
+    border-radius: 10px;
+    border:solid 2px black;
+}
+.kepszoveg{
+    color:black;
+    font-style:italic;
+    
+	
+}
+h1,h2{
+    color:green;
+    text-transform: uppercase;
+}
+ol{
+    padding:10px;
+}
+li{
+    text-align: justify;
+}
+a{
+    color:blue;
+    
+
+}
+a:hover{
+    
+    color:red;
+}

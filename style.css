@@ -73,7 +73,29 @@ a:hover{
 ul{
     list-style: square;
 }
+#imageright22{
+	display:none;
+	float:right;
+	width:350px;
+    height:430px;
+    
+    border-radius: 10px;
+    border:solid 2px black;
+    background-color: bisque;
+}
+#imageleft22{
+	display:none;
+	float:left;
+    width:300px;
+    height:250px;
+    margin-right:40px;
+    margin-bottom: 80px;
+	
+    border-radius: 10px;
+    border:solid 2px black;
+    background-color: bisque;
 
+}
 @media screen and (max-width:600px)
 {
     #content{
@@ -82,11 +104,23 @@ ul{
 #imageright{
     float:none;
     margin:auto;
-    display: block;
+    display: none;
+
 }
 #imageleft{
     float:none;
     margin:auto;
-    display:block;
+    display:none;
+
+}
+#imageright22{
+	display:block;
+	float:none;
+	margin:auto;
+}
+#imageleft22{
+	display:block;
+	float:none;
+	margin:auto;
 }
 }

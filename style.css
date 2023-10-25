@@ -1,58 +1,48 @@
 body{
-    background-color: rgb(226, 235, 226)
+    margin: auto;
+    background-color: forestgreen;
 }
+
+
+#kozep{
+    margin: auto;
+    background-color: white;
+}
+
 
 #content{
-    color:black;
-    
-    width:888px;
-	
+	width: 888px;
+    padding-left: 15px;
 }
 #imageright{
-    float:right;
-	width:350px;
-    height:500px;
-    
-    border-radius: 10px;
-    border:solid 2px black;
-    
+	margin-left: 20px;
+    width: 300px;
+    float: right;
+    height: 400px;
+    border-radius: 10%;
+    border: 2px forestgreen solid;
+    background-color: wheat;
 }
-#imageleft{
-    float:left;
-    width:300px;
-    height:200px;
-    margin-right:40px;
-    margin-bottom: 80px;
-	
-    border-radius: 10px;
-    border:solid 2px black;
-}
-.kepszoveg{
-    color:black;
-    font-style:italic;
-    
-	
-}
-h1,h2{
-    color:green;
-    text-transform: uppercase;
-}
-ol{
-    padding:10px;
-}
-li{
-    text-align: justify;
-}
-a{
-    color:blue;
-    
 
+#imageright2{
+    display: none;
+    margin-left: 20px;
+    width: 300px;
+    float: right;
+    height: 400px;
+    border-radius: 10%;
+    border: 2px forestgreen solid;
+    background-color: wheat;
 }
-a:hover{
-    
-    color:red;
+
+#imagerightimg{
+    width: 300px;
+    height: 350px;
+    border-radius: 10%;
 }
-#imgright{
+
+
+#imageleft{
 	margin-right: 40px;
     margin-bottom: 80px;
     float: left;
@@ -61,7 +51,9 @@ a:hover{
     border: 2px forestgreen solid;
     background-color: wheat;
     display: block;
-#imgright2{
+}
+
+#imageleft2{
 	margin-right: 40px;
     margin-bottom: 80px;
     float: left;
@@ -70,3 +62,40 @@ a:hover{
     border: 2px forestgreen solid;
     background-color: wheat;
     display: none;
+}
+
+#imageleftimg{
+    height: 300px;
+    border-radius: 10%;
+}
+.kepszoveg{
+	font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+h1, h2{
+    color: forestgreen;
+    text-transform: uppercase;
+}
+
+ul{
+    text-align: justify;
+    list-style-type: square;
+}
+
+a,a:visited{
+    text-transform: none;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    color: red;
+}
+
+#kiemeles{
+    font-style: italic;
+    font-weight: bold;
+}
